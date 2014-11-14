@@ -9,7 +9,7 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
-  :dependencies [[org.clojure/clojure "1.5.1"]
+  :dependencies [FOO FOO
                  [quil/processing-core "2.2.1"]
                  [quil/processing-pdf "2.2.1"]
                  [quil/processing-dxf "2.2.1"]
@@ -69,9 +69,9 @@
                                          :pretty-print true}}]}}]
 
              :test-1.5.1 [:cljs-testing
-                          {:dependencies [[org.clojure/clojure "1.5.1"]
+                          {:dependencies [FOO FOO
                                           [org.clojure/clojurescript "0.0-2234"]]}]
 
              :test-1.6.0 [:cljs-testing
-                          {:dependencies [[org.clojure/clojure "1.6.0"]
+                          {:dependencies [FOO FOO
                                           [org.clojure/clojurescript "0.0-2280"]]}]})
